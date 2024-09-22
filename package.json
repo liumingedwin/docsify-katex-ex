@@ -1,0 +1,30 @@
+{
+  "name": "docsify-katex-ex",
+  "version": "1.0.0",
+  "description": "A simple Docsify KateX Extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/liumingedwin/docsify-katex-ex.git"
+  },
+  "keywords": [
+    "docsify",
+    "markdown",
+    "latex",
+    "katex"
+  ],
+  "author": "Edwin Lau <liumingedwin@163.com>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/liumingedwin/docsify-katex-ex/issues"
+  },
+  "homepage": "https://github.com/liumingedwin/docsify-katex-ex#readme",
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "string.prototype.replaceall": "^1.0.10"
+  }
+}
