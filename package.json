@@ -1,6 +1,6 @@
 {
   "name": "docsify-katex-ex",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A simple Docsify KateX Extension",
   "main": "index.js",
   "scripts": {
@@ -22,9 +22,5 @@
   "bugs": {
     "url": "https://github.com/liumingedwin/docsify-katex-ex/issues"
   },
-  "homepage": "https://github.com/liumingedwin/docsify-katex-ex#readme",
-  "devDependencies": {
-    "esbuild": "^0.24.0",
-    "string.prototype.replaceall": "^1.0.10"
-  }
+  "homepage": "https://github.com/liumingedwin/docsify-katex-ex#readme"
 }
