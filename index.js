@@ -1,6 +1,7 @@
 const replaceAll = String.prototype.replaceAll ? 
 (x, y, z) => (String.prototype.replaceAll.call(x, y, z)) 
 : require("string.prototype.replaceall");
+(( () => {
 function htmldecode(text){
     let temp = document.createElement("div");
     temp.innerHTML = text;
@@ -8,7 +9,6 @@ function htmldecode(text){
     temp = null;
     return output;
 }
-(( () => {
 const BLOCK_REG = /\$\$[\s\S]*\$\$/g;
 const INLINE_REG = /\$[\s\S]*\$/g;
   let docsify_katex_ex = (hook, vm) => {
